@@ -13,10 +13,11 @@ const PhotoList = ({ category }) => {
         'Using Express.js back end framework, I created a project that saved notes to an express server for later recall. With a snappy front end UI and a simple call to display note data, it showcases my initial foray into back end development. It was deployed to heroku. https://enigmatic-fortress-46142.herokuapp.com/'
     },
     {
-      name: 'No',
+      name: 'Social Network API',
       category: 'backend',
       description:
-        'Using a SQL database and inquirer.js, the user is able to build a team of employees, connected via foreign keys to their respective departments, job titles, salaries and managers. Translating from inquirer input to SQL syntax, the user is able to edit, add and delete fields from the command line. https://github.com/dmadd1996/Employee-Tracker'
+        'Using backend Javascript and insomnia for API calls, I set up the API framework for a user to pull, post, edit and delete entries to a social media platform. Link takes you to a youtube video outlining the function of the code. Git: https://github.com/dmadd1996/social-network-api',
+        link:'https://www.youtube.com/watch?v=qTjoFmLylBIab_channel=DerekMadderom',
     },
     {
       name: 'Employee Tracker',
@@ -25,23 +26,26 @@ const PhotoList = ({ category }) => {
         'Using a SQL database and inquirer.js, the user is able to build a team of employees, connected via foreign keys to their respective departments, job titles, salaries and managers. Translating from inquirer input to SQL syntax, the user is able to edit, add and delete fields from the command line. https://github.com/dmadd1996/Employee-Tracker'
     },
     {
-      name: 'Restaurant table',
+      name: 'Regex Tutorial',
       category: 'backend',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'As part of my coding boot camp, I was tasked with learning about regex and how to implement it in backend server development. Link goes to a readme outline of what I learned.',
+        link: 'https://github.com/dmadd1996/Computer_Sci_Tutorial/blob/main/Email_Regex_Tutorial.md',
     },
     {
-      name: 'Cafe interior',
+      name: 'Readme Generator',
       category: 'backend',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
+        'Using Node.js to run programs from the command line interface, I developed a program which captures user inputs and outputs Readme documents that adhere to industry standard formatting. All user input is taken from the CLI, with no browser necessary, making this my first backend development project.',
+      link: 'https://github.com/dmadd1996/ReadME_Generator',   
+     },
     
     {
       name: 'App-Showcase',
       category: 'frontend',
       description:
-        `This is one of the first projects I ever worked on. It showcases my ability to make a simple website that acts as a hypothetical portfolio. This application serves to contrast this site, which is an actual portfolio of my projects and showcases how far I have come as a developer. https://github.com/dmadd1996/App_Showcase`
+        `This is one of the first projects I ever worked on. It showcases my ability to make a simple website that acts as a hypothetical portfolio. This application serves to contrast this site, which is an actual portfolio of my projects and showcases how far I have come as a developer.`,
+      link: 'https://github.com/dmadd1996/App_Showcase'
     },
     {
       name: 'Password Generator',

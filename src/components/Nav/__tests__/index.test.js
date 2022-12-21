@@ -5,7 +5,7 @@ import '@testing-library/jest-dom/extend-expect';
 import Nav from '..';
 
 const categories = [
-  { name: 'portraits', description: 'Portraits of people in my life' }
+  { name: 'portraits', description: ''/*old section, since removed*/}
 ]
 const mockCurrentCategory = jest.fn();
 const mockSetCurrentCategory = jest.fn();
