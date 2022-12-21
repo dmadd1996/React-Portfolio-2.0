@@ -11,7 +11,7 @@ function App() {
       description: 'A showcase of my front end development projects.',
     },
     { name: 'backend', description: 'A showcase of my back end development projects' },
-    { name: 'resume', description: ''}
+    { name: 'resume', description: <iframe width='100%' height='1000' src="https://docs.google.com/document/d/e/2PACX-1vRU_lpBrGruHFakfXJf4pSyrHc9Tp-wQ89TZ0unSdxWBqfs1Dr_fcR6L-7Ta2GdLw/pub?embedded=true"></iframe>}
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
