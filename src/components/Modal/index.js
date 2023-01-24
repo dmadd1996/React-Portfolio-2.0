@@ -6,17 +6,24 @@ const Modal = ({ onClose, currentPhoto }) => {
   return (
     <div className="modalBackdrop">
       <div className="modalContainer">
-        <h3 className="modalTitle">{name} </h3>
+        <div className='modalTopBar'>
+          <h3 className="modalTitle">{name} </h3>
+          <button type="button" style={{ background: "rgb(228, 46, 1)" }} onClick={onClose}>
+            X
+          </button>
+        </div>
         <img
           src={require(`../../assets/large/${category}/${index}.jpg`).default}
           alt="current category"
         />
         <p>{description}</p>
-        <a href={link}>Link to Project</a>
+        <a href={link}>Link to Repository</a>
         <br></br>
         <br></br>
-        <button type="button" onClick={onClose}>
-          Close this modal
+        <button type="button" style={{  display: "block", margin: "auto" }}>
+          {/* <a href={preview}> */}
+            Preview Application
+          {/* </a> */}
         </button>
       </div>
     </div>

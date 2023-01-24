@@ -272,6 +272,11 @@ textarea {
   margin-bottom: 25px;
 }
 
+.modalTopBar {
+  display: flex;
+  justify-content: space-between;
+}
+
 button {
   background: var(--primary);
   border: 0;
