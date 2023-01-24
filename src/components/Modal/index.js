@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Modal = ({ onClose, currentPhoto }) => {
-  const { name, description, category, index, link } = currentPhoto;
+  const { name, description, category, index, link, preview } = currentPhoto;
 
   return (
     <div className="modalBackdrop">
@@ -17,16 +17,23 @@ const Modal = ({ onClose, currentPhoto }) => {
           alt="current category"
         />
         <p>{description}</p>
-        <a href={link}>Link to Repository</a>
+        <a href={link} target="_blank">Link to Repository</a>
         <br></br>
         <br></br>
-        <button type="button" style={{  display: "block", margin: "auto" }}>
-          {/* <a href={preview}> */}
-            Preview Application
-          {/* </a> */}
-        </button>
+        <a type="button" style={{
+          padding: "0.25rem 1rem",
+          borderRadius: "0.5 rem",
+          border: "none",
+          outline: "none",
+          cursor: "pointer",
+          margin: "0 1px",
+          backgroundColor: "green",
+          color: "white"
+        }} href={preview}>
+          Preview Application
+        </a>
       </div>
-    </div>
+    </div >
   );
 };
 

@@ -10,14 +10,16 @@ const PhotoList = ({ category }) => {
       name: 'Note Taker',
       category: 'backend',
       description:
-        'Using Express.js back end framework, I created a project that saved notes to an express server for later recall. With a snappy front end UI and a simple call to display note data, it showcases my initial foray into back end development. It was deployed to heroku. https://enigmatic-fortress-46142.herokuapp.com/'
+        'Using Express.js back end framework, I created a project that saved notes to an express server for later recall. With a snappy front end UI and a straightforward call to display note data, it showcases my initial foray into back end development. It was deployed to heroku.',
+      link: "https://github.com/dmadd1996/Note-Taker",
+      preview:  "https://note-taker-dmadd1996.herokuapp.com/"
     },
     {
       name: 'Social Network API',
       category: 'backend',
       description:
         'Using backend Javascript and insomnia for API calls, I set up the API framework for a user to pull, post, edit and delete entries to a social media platform. Link takes you to a youtube video outlining the function of the code. Git: https://github.com/dmadd1996/social-network-api',
-        link:'https://www.youtube.com/watch?v=qTjoFmLylBIab_channel=DerekMadderom',
+      link:'https://www.youtube.com/watch?v=qTjoFmLylBIab_channel=DerekMadderom',
     },
     {
       name: 'Employee Tracker',
@@ -30,7 +32,7 @@ const PhotoList = ({ category }) => {
       category: 'backend',
       description:
         'As part of my coding boot camp, I was tasked with learning about regex and how to implement it in backend server development. Link goes to a readme outline of what I learned.',
-        link: 'https://github.com/dmadd1996/Computer_Sci_Tutorial/blob/main/Email_Regex_Tutorial.md',
+      link: 'https://github.com/dmadd1996/Computer_Sci_Tutorial/blob/main/Email_Regex_Tutorial.md',
     },
     {
       name: 'Readme Generator',
@@ -44,7 +46,7 @@ const PhotoList = ({ category }) => {
       name: 'App-Showcase',
       category: 'frontend',
       description:
-        `This is one of the first projects I ever worked on. It showcases my ability to make a simple website that acts as a hypothetical portfolio. This application serves to contrast this site, which is an actual portfolio of my projects and showcases how far I have come as a developer.`,
+        `This is one of the first projects I ever worked on. It showcases my ability to make a straightforward website that acts as a hypothetical portfolio. This application serves to contrast this site, which is an actual portfolio of my projects and showcases how far I have come as a developer.`,
       link: 'https://github.com/dmadd1996/App_Showcase'
     },
     {
@@ -57,7 +59,9 @@ const PhotoList = ({ category }) => {
       name: 'JavaScript Quiz',
       category: 'frontend',
       description:
-        'This quiz utilized the basics of Javascript to provide a timed test. Each question is presented on a card that is pulled from an array. When the user inputs an incorrect answer, time is deducted from a timer. If the user answers correctly, the next question card is displayed. At the end of the quiz, the user is able to record their scores and save them to the local storage of their browser. https://github.com/dmadd1996/JS_Quiz'
+        'This quiz utilized the basics of Javascript to provide a timed test. Each question is presented on a card that is pulled from an array. When the user inputs an incorrect answer, time is deducted from a timer. If the user answers correctly, the next question card is displayed. At the end of the quiz, the user is able to record their scores and save them to the local storage of their browser.',
+      link: "https://github.com/dmadd1996/JS_Quiz",
+      preview: "https://github.com/dmadd1996/JS_Quiz"
     },
     {
       name: 'Workday Scheduler',
