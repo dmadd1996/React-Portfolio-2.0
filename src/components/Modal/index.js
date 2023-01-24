@@ -29,7 +29,7 @@ const Modal = ({ onClose, currentPhoto }) => {
           margin: "0 1px",
           backgroundColor: "green",
           color: "white"
-        }} href={preview}>
+        }} href={preview} target='_blank'>
           Preview Application
         </a>
       </div>
