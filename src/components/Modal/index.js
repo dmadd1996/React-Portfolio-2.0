@@ -12,10 +12,12 @@ const Modal = ({ onClose, currentPhoto }) => {
             X
           </button>
         </div>
-        <img
-          src={require(`../../assets/large/${category}/${index}.jpg`).default}
-          alt="current category"
-        />
+        <a href={preview} target='_blank'>
+          <img
+            src={require(`../../assets/large/${category}/${index}.jpg`).default}
+            alt="current category"
+          />
+        </a>
         <p>{description}</p>
         <a href={link} target="_blank">Link to Repository</a>
         <br></br>
