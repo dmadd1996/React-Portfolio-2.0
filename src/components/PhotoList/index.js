@@ -18,28 +18,33 @@ const PhotoList = ({ category }) => {
       name: 'Social Network API',
       category: 'backend',
       description:
-        'Using backend Javascript and insomnia for API calls, I set up the API framework for a user to pull, post, edit and delete entries to a social media platform. Link takes you to a youtube video outlining the function of the code. Git: https://github.com/dmadd1996/social-network-api',
-      link:'https://www.youtube.com/watch?v=qTjoFmLylBIab_channel=DerekMadderom',
+        'Using backend Javascript and insomnia for API calls, I set up the API framework for a user to pull, post, edit and delete entries to a social media platform. Link takes you to a youtube video outlining the function of the code.',
+        link: 'https://github.com/dmadd1996/social-network-api',
+        preview:'https://www.youtube.com/watch?v=qTjoFmLylBIab_channel=DerekMadderom',
     },
     {
       name: 'Employee Tracker',
       category: 'backend',
       description:
-        'Using a SQL database and inquirer.js, the user is able to build a team of employees, connected via foreign keys to their respective departments, job titles, salaries and managers. Translating from inquirer input to SQL syntax, the user is able to edit, add and delete fields from the command line. https://github.com/dmadd1996/Employee-Tracker'
+        'Using a SQL database and inquirer.js, the user is able to build a team of employees, connected via foreign keys to their respective departments, job titles, salaries and managers. Translating from inquirer input to SQL syntax, the user is able to edit, add and delete fields from the command line.',
+        link: 'https://github.com/dmadd1996/Employee-Tracker',
+        preview: 'https://youtu.be/hLGCesRoTNM'
     },
     {
-      name: 'Regex Tutorial',
+      name: 'E-Commerce Server',
       category: 'backend',
       description:
-        'As part of my coding boot camp, I was tasked with learning about regex and how to implement it in backend server development. Link goes to a readme outline of what I learned.',
-      link: 'https://github.com/dmadd1996/Computer_Sci_Tutorial/blob/main/Email_Regex_Tutorial.md',
+        'As part of my coding boot camp, I was tasked with creating a functional e-commerce database. Using the Object Relational Mapping technique, which makes use of virtual objects to organize and compile large amounts of data in a fraction of the time compared to traditional databases.',
+      link: 'https://github.com/dmadd1996/E-Commerce/tree/main/Develop',
+      preview: "https://youtu.be/M2GKG4dpNLs"
     },
     {
       name: 'Readme Generator',
       category: 'backend',
       description:
         'Using Node.js to run programs from the command line interface, I developed a program which captures user inputs and outputs Readme documents that adhere to industry standard formatting. All user input is taken from the CLI, with no browser necessary, making this my first backend development project.',
-      link: 'https://github.com/dmadd1996/ReadME_Generator',   
+      link: 'https://github.com/dmadd1996/ReadME_Generator',
+      preview: 'https://youtu.be/C4lib3Z4LHc'
      },
     
     {
@@ -47,13 +52,16 @@ const PhotoList = ({ category }) => {
       category: 'frontend',
       description:
         `This is one of the first projects I ever worked on. It showcases my ability to make a straightforward website that acts as a hypothetical portfolio. This application serves to contrast this site, which is an actual portfolio of my projects and showcases how far I have come as a developer.`,
-      link: 'https://github.com/dmadd1996/App_Showcase'
+      link: 'https://github.com/dmadd1996/App_Showcase',
+      preview: "https://dmadd1996.github.io/App_Showcase/"
     },
     {
       name: 'Password Generator',
       category: 'frontend',
       description:
-        'This project made use of javascript to allow users to select length, and use of case, numeric and special characters for a generated password. At the push of a button, the defined password is created for the user to copy and deploy. https://github.com/dmadd1996/Password_Generator'
+        'This project made use of javascript to allow users to select length, and use of case, numeric and special characters for a generated password. At the push of a button, the defined password is created for the user to copy and deploy.',
+        link:"https://github.com/dmadd1996/Password_Generator",
+        preview:"https://dmadd1996.github.io/Password_Generator/"
     },
     {
       name: 'JavaScript Quiz',
@@ -61,19 +69,23 @@ const PhotoList = ({ category }) => {
       description:
         'This quiz utilized the basics of Javascript to provide a timed test. Each question is presented on a card that is pulled from an array. When the user inputs an incorrect answer, time is deducted from a timer. If the user answers correctly, the next question card is displayed. At the end of the quiz, the user is able to record their scores and save them to the local storage of their browser.',
       link: "https://github.com/dmadd1996/JS_Quiz",
-      preview: "https://github.com/dmadd1996/JS_Quiz"
+      preview: "https://dmadd1996.github.io/JS_Quiz/"
     },
     {
       name: 'Workday Scheduler',
       category: 'frontend',
       description:
-        'In this project, I used a third-party api call to monitor the time and allow the user to click on a time slot, add a task (having it save to the local storage) and see the past time slots (gray), the current slot (green) and the future slots (red).'
+        'In this project, I used a third-party api call to monitor the time and allow the user to click on a time slot, add a task (having it save to the local storage) and see the past time slots (gray), the current slot (green) and the future slots (red).',
+        link:"https://github.com/dmadd1996/Work_Calendar",
+        preview:"https://dmadd1996.github.io/Work_Calendar/"
     },
     {
       name: 'Weather Tracker',
       category: 'frontend',
       description:
-        'This project, using server-side api calls, allows the user to get a breakdown of the weather in any city of their choosing. The city they type into the search bar is inserted into a fetch call and the data is translated onto the screen to provide a full breakdown of the weather in that location. Previous searches are saved in the local storage and displayed on the screen.'
+        'This project, using server-side api calls, allows the user to get a breakdown of the weather in any city of their choosing. The city they type into the search bar is inserted into a fetch call and the data is translated onto the screen to provide a full breakdown of the weather in that location. Previous searches are saved in the local storage and displayed on the screen.',
+        link:"https://github.com/dmadd1996/weather_tracker",
+        preview:"https://dmadd1996.github.io/weather_tracker/"
     }
     
   ]);
