@@ -301,3 +301,7 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.hidden {
+  display: none;
+}

@@ -20,7 +20,7 @@ const PhotoList = ({ category }) => {
       description:
         "Knowledge of SQL is important, but in today's data-driven world, a developer needs newer, faster tools. NoSQL databases can process huge volumes of data in a fraction of the time, which is why it has become an industry standard. In this application, I used MongoDB as my NoSQL framework. Social networks are constantly being updated and added to, so agile development standards are a must to account for this unstructured data. Using the Insomnia API platform, the video preview exhibits how a front-end UI would make internal CRUD API calls to create, read, update and delete user posts. Click on the image to view the video.",
         link: 'https://github.com/dmadd1996/social-network-api',
-        preview:'https://www.youtube.com/watch?v=qTjoFmLylBIab_channel=DerekMadderom',
+        preview:'https://www.youtube.com/embed/qTjoFmLylBI',
     },
     {
       name: 'Employee Tracker',
@@ -28,7 +28,7 @@ const PhotoList = ({ category }) => {
       description:
         "Sometimes old SQL just gets the job done. When a project calls for a system that can easily store textual data that must be easily accessible to non-developers, the stability and simplicity of SQL Content Management Systems is unmatched. For this back-end application, a company's departments, roles, employees and salaries are connected via foreign keys. Combine that with an Inquirer Node package as a command line interface, and it can be securely viewed, and edited, through easy to use text prompts. This system could easily be expanded to a full-stack application that makes onboarding and presenting employee data simple and intuitive. Click on the image to see how inquirer can make interfacing with SQL a breeze.",
         link: 'https://github.com/dmadd1996/Employee-Tracker',
-        preview: 'https://youtu.be/hLGCesRoTNM'
+        preview: 'https://youtube.com/embed/puZ8QBisd3M'
     },
     {
       name: 'E-Commerce Server',
@@ -36,7 +36,7 @@ const PhotoList = ({ category }) => {
       description:
         'Internet retail is the largest sector of the electronics industry, generating trillions of dollars every year in revenue. For any business, developers need a fundamental understanding of E-commerce architecture, due to its near universal prevalence. For this project, using an Express.js API and configuring it to use Sequelize, seeded commercial data (categories, products and tags) can be injected into a MySQL database. The Object-Relational Maps use API routes to perform RESTful CRUD operations, making huge volumes of data easily searched, narrowed and organized. This many-to-many relationship structure allows clients to find exactly what they are searching for without having to sift through mountains of data. Click on the image to watch how I use the Insomnia API platform to perform multiple variations of each CRUD operation and interact with the ORM.',
       link: 'https://github.com/dmadd1996/E-Commerce/tree/main/Develop',
-      preview: "https://youtu.be/M2GKG4dpNLs"
+      preview: "https://youtube.com/embed/M2GKG4dpNLs"
     },
     {
       name: 'Readme Generator',
@@ -44,7 +44,7 @@ const PhotoList = ({ category }) => {
       description:
         'Using Node.js to and Inquirer.js from the command line interface, I developed a program which captures user inputs and outputs Readme documents that adhere to industry standard formatting. All user input is taken from the CLI, with no browser necessary, making this my first backend development project.',
       link: 'https://github.com/dmadd1996/ReadME_Generator',
-      preview: 'https://youtu.be/C4lib3Z4LHc'
+      preview: 'https://youtube.com/embed/C4lib3Z4LHc'
      },
     
     {
