@@ -1,5 +1,7 @@
 import React from 'react';
 
+import anime from 'animejs/lib/anime.es.js';
+
 const Modal = ({ onClose, currentPhoto }) => {
   const { name, description, category, index, link, preview } = currentPhoto;
 
@@ -14,7 +16,14 @@ const Modal = ({ onClose, currentPhoto }) => {
 
     function iframeShow(){
       inlineFrame.classList.remove('hidden', true)
+      inlineFrame.setAttribute('height', "650px")
     }
+
+    anime({
+      targets: 'div',
+      width: '100%',
+      easing: 'easeInOutQuad',
+    });
 
     imgHide()
     iframeShow()
@@ -29,7 +38,7 @@ const Modal = ({ onClose, currentPhoto }) => {
             X
           </button>
         </div>
-        <a href='#' onClick={iframeView}>
+        <a href='#' onClick={iframeView} className='modalContent'>
           <img
             id='inlineImg'
             src={require(`../../assets/large/${category}/${index}.jpg`).default}
