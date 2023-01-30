@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import coverImage from '../../assets/cover/cover-image.jpg';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
@@ -37,7 +37,16 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <section className="my-5" >
+      <h1 id="about">Who am I?</h1>
+      <div>
+        <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+        <div className="my-2">
+          <p>
+            Deep love of complex problems and elegant solutions. A lifelong learner, I am inspired to create computer systems that bring my background in psychology to the forefront of intuitive web design. My experiences include general IT, front and back-end web design, server development and maintenance. Being a team-player and a fair leader are the standards with which I measure my character.
+          </p>
+        </div>
+      </div>
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

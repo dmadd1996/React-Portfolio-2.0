@@ -11,7 +11,7 @@ function App() {
       description: 'A showcase of my front end development projects.',
     },
     { name: 'backend', description: 'A showcase of my back end development projects' },
-    { name: 'resume', description: <iframe width='100%' height='1000' src=""></iframe>}
+    { name: 'resume', description: <iframe width='100%' height='1000' src=""></iframe>},
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -31,7 +31,6 @@ function App() {
         {!contactSelected ? (
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
           </>
         ) : (
           <ContactForm></ContactForm>
