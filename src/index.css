@@ -189,7 +189,7 @@ textarea {
 
 .mx-2 {
   margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
+  /* margin-left: var(--spacing-two); */
 }
 
 .my-1 {
@@ -305,3 +305,14 @@ a {
 .hidden {
   display: none;
 }
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.contactIcon {
+  height: 500px;
+  padding: 100px;
+}
+
