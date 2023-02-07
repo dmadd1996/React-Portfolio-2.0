@@ -1,22 +1,24 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-// import About from './components/About';
 import Gallery from './components/Gallery';
-import ContactForm from './components/Contact';
+import AboutForm from './components/About';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
+    
+    { name: 'backend', description: 'A showcase of my back end development projects'},
     {
       name: 'frontend',
       description: 'A showcase of my front end development projects.',
     },
-    { name: 'backend', description: 'A showcase of my back end development projects' },
-    { name: 'resume', description: <iframe width='100%' height='1000' src=""></iframe>},
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(false);
+
+  const [resumeSelected, setResumeSelected] = useState(false)
 
   return (
     <div>
@@ -24,16 +26,20 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
-        {!contactSelected ? (
+      {resumeSelected ? (
+          <Resume></Resume>
+        ) : aboutSelected ? (
+          <AboutForm></AboutForm>
+        ) : (
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
           </>
-        ) : (
-          <ContactForm></ContactForm>
         )}
       </main>
     </div>

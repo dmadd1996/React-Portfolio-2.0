@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import coverImage from '../../assets/cover/cover-image.jpg';
 import { validateEmail } from '../../utils/helpers';
+import '../../index.css';
 
-import anime from 'animejs/lib/anime.es.js';
 var contactIcon = document.getElementsByClassName('contactIcon')
 
 anime({
-  targets: contactIcon,
+  targets: {contactIcon},
   translateY: -40,
   duration: 5000,
   direction: 'alternate',
@@ -49,20 +49,20 @@ function ContactForm() {
   };
 
   return (
-    <section className="my-5" >
-      <div className='container'>
-        <h1 id="about">Who am I?</h1>
-        <img src={coverImage} className="my-2 aboutImage" alt="cover" />
-        <div className="my-2 aboutDescription">
-          <p>
-            Deep love of complex problems and elegant solutions. A lifelong learner, I am inspired to create computer systems that bring my background in psychology to the forefront of intuitive web design. My experiences include general IT, front and back-end web design, server development and maintenance. Being a team-player and a fair leader are the standards with which I measure my character.
-          </p>
-        </div>
-        <div className='container-2'>
-          <div><img className='contactIcon' src='https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png'></img></div>
-          <div><img className='contactIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968866.png'></img></div>
-        </div>
-      </div>
+    // <section className="my-5" >
+    //   <div className='container'>
+    //     <h1 id="about">Who am I?</h1>
+    //     <img src={coverImage} className="my-2 aboutImage" alt="cover" />
+    //     <div className="my-2 aboutDescription">
+    //       <p>
+    //         Deep love of complex problems and elegant solutions. A lifelong learner, I am inspired to create computer systems that bring my background in psychology to the forefront of intuitive web design. My experiences include general IT, front and back-end web design, server development and maintenance. Being a team-player and a fair leader are the standards with which I measure my character.
+    //       </p>
+    //     </div>
+    //     <div className='container-2'>
+    //       <div><img className='contactIcon' src='https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png'></img></div>
+    //       <div><img className='contactIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968866.png'></img></div>
+    //     </div>
+    //   </div>
 
       {/* <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
