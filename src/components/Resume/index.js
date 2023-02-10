@@ -1,5 +1,6 @@
 import React from 'react';
 import './resume.css'
+// import resume from './Resume.pdf'
 
 function Resume() {
   return (
@@ -16,7 +17,7 @@ function Resume() {
 
 					<div className="yui-u">
 						<div className="contact-info">
-							<h3><a id="pdf" href="Resume.pdf" download="Resume">Download PDF</a></h3>
+							<h3><a id="pdf" href='https://storage.cloud.google.com/derek_madderom_resume/Resume.pdf' download="Resume">Download PDF</a></h3>
 							<h3><a href="mailto:dmadd1996@gmail.com">dmadd1996@gmail.com</a></h3>
 							<h3>(920) - 988-3064</h3>
 							<h3><a id="portfolio" href="https://react-portfolio-derek-madderom.herokuapp.com/"

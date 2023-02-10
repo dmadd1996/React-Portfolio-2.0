@@ -16,7 +16,7 @@ function App() {
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const [aboutSelected, setAboutSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(true);
 
   const [resumeSelected, setResumeSelected] = useState(false)
 
