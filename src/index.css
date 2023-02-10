@@ -7,8 +7,8 @@ main {
   --primary: #8c54ff;
   --secondary: #f3a847;
   --tertiary: #b12704;
-  --light: #fafafa;
-  --dark: #000000;
+  --light: #f5f4ab;
+  --dark: #303030;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -162,6 +162,9 @@ textarea {
   border: 3px solid #cccccc;
   padding: 5px;
 }
+.aboutImage {
+  border-radius: 100px;
+}
 
 .container {
   width: 85%;
@@ -312,7 +315,10 @@ a {
 }
 
 .contactIcon {
-  height: 500px;
-  padding: 100px;
+  height: 300px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-left: -50px;
 }
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import coverImage from '../../assets/cover/cover-image.jpg';
 import '../../index.css';
+import github from './github.png'
+import linkedin from './linkedin.png'
 function AboutForm() {
   return (
     <section className="my-5" >
@@ -9,12 +11,16 @@ function AboutForm() {
         <img src={coverImage} className="my-2 aboutImage" alt="cover" />
         <div className="my-2 aboutDescription">
           <p>
-            Deep love of complex problems and elegant solutions. A lifelong learner, I am inspired to create computer systems that bring my background in psychology to the forefront of intuitive web design. My experiences include general IT, front and back-end web design, server development and maintenance. Being a team-player and a fair leader are the standards with which I measure my character.
+            Hello, my name is Derek Madderom. As a lifelong learner, I am inspired to create computer systems that bring my background in psychology to the forefront of intuitive web design. My experiences include general IT, front and back-end web design, server development and maintenance. Being a team-player and a fair leader are the standards with which I measure my character. At the top of this page, you can navigate to previews of my projects, both front and backend, as well as view my resume, which has all of my contact info. Click on either of the icons below to check out my GitHub and LinkedIn pages
           </p>
         </div>
         <div className='container-2'>
-          <div><img className='contactIcon' src='https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png'></img></div>
-          <div><img className='contactIcon' src='https://cdn-icons-png.flaticon.com/512/5968/5968866.png'></img></div>
+          <div><a href="https://github.com/dmadd1996/" target="_blank">
+            <img className='contactIcon' src={github}></img>
+          </a></div>
+          <div><a href="https://www.linkedin.com/in/derek-madderom-b22548220/" target="_blank">
+            <div><img className='contactIcon' src={linkedin}></img></div>
+          </a></div>
         </div>
       </div>
 
